@@ -28,11 +28,14 @@ public class MainActivity extends AppCompatActivity
                 calendar.set(Calendar.YEAR, year);
                 calendar.set(Calendar.MONTH, month);
 
-                SimpleDateFormat dateFormat = new SimpleDateFormat("MMMM yyyy");
+                SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy");
 
                 yearMonth.setText(dateFormat.format(calendar.getTime()));
             }
         });
+
+        yearMonthPickerDialog.disableMonthPicker(true);
+        yearMonthPickerDialog.setMaxYear(Calendar.getInstance().get(Calendar.YEAR) + 1);
 
         yearMonthPickerDialog.show();
     }

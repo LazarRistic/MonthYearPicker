@@ -9,7 +9,8 @@
     <com.twinkle94.monthyearpicker.custom_number_picker.NumberPickerWithColor
         android:id="@+id/month_picker"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
 
     <com.twinkle94.monthyearpicker.custom_number_picker.NumberPickerWithColor
         android:id="@+id/year_picker"

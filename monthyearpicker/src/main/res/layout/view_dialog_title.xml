@@ -13,7 +13,7 @@
         android:padding="16dp"
         android:text=""
         android:textColor="@color/colorMainBackground"
-        android:textSize="22sp" />
+        android:textSize="22sp"/>
 
     <TextView
         android:id="@+id/year_name"
